@@ -1,0 +1,32 @@
+
+/* Root Variables */
+:root {
+    /* Primary */
+    --very-dark-blue-page-bg: hsl(233, 47%, 7%);
+    --dark-desat-blue-card-bg: hsl(244, 38%, 16%);
+    --soft-violet: hsl(277, 64%, 61%);
+
+    /* Neutral */
+    --white-main-para-stats: hsl(0, 0%, 100%);
+    --slight-transparent-white-main-para: hsla(0, 0%, 100%, 0.75);
+    --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Inter', sans-serif;
+    font-size: 15px;
+    background-color: red;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
