@@ -40,11 +40,30 @@ body {
 }
 
 .card-1 {
-    max-width: 50%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    gap: 20px;
 }
 
+.hero-text {
+    grid-row: 3;
+}
+
+/* .hero-text p {
+    grid-row: 3;
+} */
+
 .card-2 {
-    max-width: 50%;
+    width: 50%;
+}
+
+.card-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Why did display block work? */
 }
 
 .three-stats {
