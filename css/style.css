@@ -192,7 +192,7 @@ body {
         height: auto;
         display: block;
         /* Why did display block work? */
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
         /* top-left, top-right, bottom-right, and bottom-left */
     }
 
